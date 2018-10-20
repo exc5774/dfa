@@ -1,0 +1,15 @@
+# example1.txt
+# this DFA recognizes any string of 0's and 1's ending in a 1
+# Q - the set of all states
+q1 q2
+# Sigma - the alphabet
+0 1
+# q_0 - the start state
+q1
+# F - the set of accept states 
+q2
+# delta - the transition functions 
+q1 0 q1
+q1 1 q2
+q2 0 q1
+q2 1 q2
